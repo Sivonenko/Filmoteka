@@ -1,0 +1,41 @@
+@media (min-width: 767px) {
+  .container {
+    width: 768px;
+  }
+  .main {
+    width: 768px;
+  }
+  .inner {
+    width: 768px;
+  }
+  .inner_img {
+    width: 345px;
+    height: 181px;
+  }
+  .img_library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .img_list:nth-child(n + 1) {
+    padding: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+  .main {
+    width: 1024px;
+  }
+  .inner {
+    width: 1024px;
+  }
+  .inner_img {
+    width: 466px;
+    height: 244px;
+  }
+}
